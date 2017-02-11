@@ -1,0 +1,347 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	
+	width: 100%;
+	
+}
+.arrow,.return{
+	
+	display: inline;
+	 position: relative;
+   left:2px;
+   top: 15px;
+}
+.head{
+	position: fixed;
+	left: 0;
+	top: 0;
+	text-align: center;
+	font-size: 14px;
+	width: 100%;
+	background-color: 2e7bcd;
+	color: fff;
+	height: 44px;
+	/*w100 bg-2e7bcd  color-fff  clear head" style="height:44px*/
+}
+
+.one{
+	 position: relative;
+   left: 10px;
+   top: 15px;
+}
+.binding{
+   float: right;
+   
+   background-color: rgb(128,190,30);
+   height: 22px;
+   line-height: 22px;
+   border-radius: 5px;
+   width: 64px;
+   text-align: center;
+   position: relative;
+   left: -5px;
+   top: 11px;
+}
+.top{
+	line-height: 44px;
+	height: 44px;
+	width: 100%;
+	clear: both;
+	font-size: 14px;
+	clear: both;
+	background-color:rgb(237,237,237);
+	border-bottom: 1px solid rgb(190,190,190);
+    position: fixed;
+	left: 0;
+	top: 44px;
+
+
+}
+.top img{
+	width: 25px;
+	position: relative;
+	top: 5px;
+	left: 10px;
+}
+.number{
+	font-weight: bold;
+	margin-left: 14px;
+}
+.total{
+	float: right;
+	
+}
+.money{
+	float: right;
+	margin-left: 10px;
+	margin-right: 8px;
+	color: rgb(242,64,97);
+}
+
+/*违章部分开始*/
+
+.li-top:first-child{
+	margin-top: 88px;
+}
+.li-top{
+	height: 35px;
+	width: 100%;
+	overflow: hidden;
+	line-height: 45px;
+	font-size: 12px;
+
+}
+
+.message{
+	margin-left: 15px;
+}
+.li-mon{
+	float: right;
+	margin-left: 10px;
+	margin-right: 12px;
+	color: rgb(242,64,97);
+}
+.li-total{
+	float: right;
+	margin-left: 10px;
+
+}
+.sub{
+	clear: both;
+	background-color: white;
+	margin: 0 10px;
+	padding: 15px 0 20px 0;
+	margin-bottom: 10px;
+}
+.sub:last-child{
+	margin-bottom: 0px;
+}
+.subimg{
+	float: left;
+	width: 34px;
+	margin-left: 7px;
+	background-color: white;
+}
+.subimg img{
+	width: 100%;
+}
+.tab{
+	float: left;
+	width: 82%;
+	font-size: 12px;
+	background-color: white;
+	float: right;
+	padding-right: 5px;
+	
+}
+.mid{
+	white-space:nowrap;
+	vertical-align: top;
+	color: rgb(121,132,143);
+	line-height: 2;
+
+}
+.right{
+	text-align: left;
+	vertical-align: top;
+	color: rgb(118,118,118);
+	line-height: 2;
+	
+	word-break : break-all; 
+	overflow:hidden;
+}
+.code{
+	color: rgb(242,64,97);
+
+}
+/*违章部分结束*/
+/*年票部分开始*/
+.ticket{
+	font-size: 12px;
+	background-color: white;
+	margin: 0 10px;
+	padding: 10px 0 10px 0;
+	padding-left: 10px;
+    
+
+}
+
+/*年票部分结束*/
+/*车船税部分开始*/
+/*车船税部分部分结束*/
+/*底下部分开始*/
+.bigbot{
+	position: fixed;
+	
+	bottom: 0px;
+	z-index: 6;
+	width: 100%;
+	padding-bottom: 12px;
+	background-color:rgb(237,237,237);
+}
+.bot{
+	margin: 0px 15px ;
+	margin-top: 4px;
+	
+	text-align: center;
+
+}
+
+.deal{
+	width: 100%;
+	background-color: rgb(128,128,128);
+	color: white;
+	border-radius: 5px;
+	font-size: 14px;
+	height: 31px;
+	
+	line-height: 31px;
+}
+.dealsub{
+	width: 100%;
+	background-color: rgb(123,167,230);
+	color: white;
+	border-radius: 5px;
+	height: 31px;
+	
+	line-height: 31px;
+	font-size: 14px;
+}
+/*底下部分结束*/
+/*hidden部分开始*/
+
+.big{
+	display:block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+}
+.hid{
+	display:none;
+	width: 100%;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	opacity: 0.6;
+
+	height: 500px;
+}
+
+
+
+
+.entry,.entrytwo,.entrythree{
+	text-align: center;
+	 position: fixed;
+	width: 100%;
+	top: 165px;
+	z-index: 5;
+	display: none;
+}
+
+
+.for{
+	color: rgb(166,166,166);
+	background-color: rgb(238,238,238);
+	font-size: 14px;
+	
+}
+.for input{
+	width: 190px;
+	margin-top: 15px;
+	margin-left: -5px;
+	padding-left: 8px;
+
+}
+.for span{
+	background-color: rgb(176,184,196); 
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 5.5px 29px;
+	color: white;
+    margin-left: 27px;
+
+
+}	
+.test{
+	margin:20px 0 8px 0; 
+	background-color: rgb(238,238,238);
+}
+.for .entryin{
+	background-color: rgb(123,167,230); 
+	border-radius: 5px;
+	font-size: 16px;
+	width: 86px;
+	height: 27px;
+	color: white;
+	border: none;
+	margin-left: 20px;
+	outline: none;
+
+}
+.popover {
+ 
+ margin: 0 auto;
+  width: 260px;
+background-color: rgb(238,238,238);
+ text-align:center;
+
+      
+}
+.popover-title {
+  height: 34px;
+  line-height: 42px;
+  
+  font-family:"Courier New", Courier, monospace;
+  font-size:16px;
+  color:rgb(106,106,106);
+
+  
+  background-color: #cfcfcf;
+ 
+  
+}
+.popover-content {
+  padding: 5px 3px 5px 5px;
+  background-color:rgb(238,238,238);
+  font-family:"Courier New", Courier, monospace;
+  font-size:12px;
+  font-style:normal;
+  color:#666666;
+  line-height:20px;
+  text-align: left;
+}
+/*温馨提示开始*/
+.botu{
+	margin: 0px 15px ;
+	margin-top: 10px;
+	padding-bottom:5px;
+	text-align: center;
+	
+
+}
+.confirm,.confirmtwo{
+	width: 86px;
+	height: 27px;
+	background-color: rgb(123,167,230);
+	color: white;
+	border-radius: 5px;
+	
+	font-size: 16px;
+}
+.two-p{
+	margin: 10px 10px 0 10px;
+	font-size: 14px;
+	color: rgb(124,124,124);
+}
+
+/*hidden部分结束*/
+
+
+
+

@@ -1,0 +1,326 @@
+/*marry-place*/
+.agr-love{
+	margin-top: 50px;
+	border-bottom: 1px solid #ef963c;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 20px;
+	color: #686868;
+	font-size: 14px;
+}
+.agr-love img{
+	width: 23px;
+	height: 15px;
+	vertical-align: middle;
+}
+.agr-boy{
+	float: left;
+	margin-top: 28px;
+	margin-left: 35px;
+	text-align: center;
+	color: #686868;
+	font-size: 13px;	
+	margin-bottom: 14px;
+}
+.agr-boy p select {
+	 color: #686868;
+	 width: 90px;
+	 height: 28px;
+	 margin-bottom: 14px;
+	 border-radius: 3px;
+}
+.agr-zi{
+	padding-top: 13px;
+	padding-bottom: 7px;
+}
+.agr-boy img{
+	width: 65px;
+	height: 135px;
+}
+
+.agr-girl{
+	float: right;
+	margin-top: 28px;
+	margin-right: 35px;
+	text-align: center;
+	color: #686868;
+	font-size: 13px;
+}
+.agr-girl img{
+	width: 65px;
+	height: 135px;
+}
+.agr-girl p select {
+	 color: #686868;
+	 width: 90px;
+	 height: 28px;
+	 margin-bottom: 14px;
+	 border-radius: 3px;
+}
+.bot-next{
+	width: 92%;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	background-color: #f0953c;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 22px;
+	margin-bottom: 20px;
+}
+.bot-next a {
+	color: white;
+	font-size: 14px;
+}
+
+/*marry-date*/
+.agr-love02{
+	margin-top: 50px;
+	/*border-bottom: 1px solid #ef963c;*/
+	height: 35px;
+	line-height: 35px;
+	padding-left: 20px;
+	color: #686868;
+}
+.agr-love02 img{
+	width: 23px;
+	height: 15px;
+	vertical-align: middle;
+}
+.agr-deng select {
+	margin-left: 7px;	
+	width: 135px;
+	height: 23px;
+	color: #686868;
+	border-radius: 3px;
+	margin-bottom: 12px;
+}
+.agr-site{
+	margin-left: 7px;
+	color: #79838d;
+	line-height: 20px;
+}
+/*日期表格*/
+.agr-table table{
+	text-align: center;
+	border: 1px solid #a0a0a0!important;
+	/*border: 1px solid red;*/
+	margin: 10px auto;
+	width: 96%;
+	color: #6b6f7a;
+}
+.agr-table table tr td{
+	border: 1px solid #c8c8c8;
+	width: 43px;
+	height: 43px;
+	font-size: 20px;
+	/*font-weight:bold;*/
+	color: #5f636e;
+}
+/*.agr-table table tr td:visited {
+	background-color: #74787b;
+	color: red;
+}
+.agr-table table tr td:hover{
+	background-color: #74787b;
+	color: white!important;
+}
+.agr-table table tr td:active{
+	background-color: #74787b;
+	color: white!important;
+}*/
+/*.aa{
+	background-color: #74787b;
+	color: white!important;
+}*/
+.bb{
+	background-color: #74787b;
+	color: white!important
+}
+
+
+.agr-table table tr th{
+	/*border: 1px solid #c8c8c8;*/
+	text-align: center;
+	background-color: #c8c8c8;
+	height: 20px;
+	color: #60646f;
+}
+.agr-yan{
+	margin-left: 7px;
+	margin-right: 7px;
+	color: #79838d;
+	font-size: 10px;
+}
+.agr-time{
+	margin-left: 7px;
+	margin-top: 20px;
+	color: #606470;
+	font-size: 14px;
+}
+.agr-timel{
+	color: #79838d;
+	margin-left: 28px;
+	/*float: left;*/
+}
+.agr-time p {
+	padding-bottom: 13px;
+}
+
+.agr-timel input{
+	vertical-align: middle;
+}
+
+
+
+.agr-time02{
+	margin-left: 7px;
+	margin-top: 20px;
+	color: #606470;
+	font-size: 14px;
+}
+.agr-timel02{
+	color: #79838d;
+	margin-left: 28px;
+	/*float: left;*/
+}
+.agr-time02 p {
+	padding-bottom: 13px;
+	padding-right: 10%;
+}
+
+.agr-timel02 input{
+	vertical-align: middle;
+}
+
+
+
+.agr-timer{
+	color: #79838d;
+	margin-right: 40px;
+	float: right;
+}
+.agr-timer input{
+	vertical-align: middle;
+}
+.agr-timec{
+	color: #f04160;
+	text-align: center;
+	margin-top: 33px;
+}
+
+/*information信息*/
+
+.agr-infor{
+	color: #686868;
+	float: right;
+	margin-right: 25px;
+	margin-top: 39px;
+	color: #76848f;
+}
+.agr-infor table select{
+	color: #686868;
+	border-radius: 3px;
+	width: 127px;
+	height: 22px;
+	border: 1px solid #c8c8c8;
+}
+.agr-infor table tr td input{
+	border-radius: 3px;
+	width: 125px;
+	height: 20px;
+	border: 1px solid #c8c8c8;
+}
+.agr-infor table tr{
+	/*padding-bottom: 9px;*/
+	height: 32px;
+}
+.agr-infor-zi{
+	color: #f04160;
+	margin-left: 28px;
+	margin-top: 10px;
+	margin-bottom: -10px;
+	margin-right: 28px;
+}
+/*mend-place*/
+.mend-boy{
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	color: #686868;
+	font-size: 13px;	
+	margin-bottom: 14px;
+}
+.mend-boy p select {
+	 color: #686868;
+	 width: 100px;
+	 height: 28px;
+	 margin-bottom: 10px;
+	 border-radius: 3px;
+}
+.mend-zi{
+	padding-top: 13px;
+	padding-bottom: 7px;
+}
+.mend-boy img{
+	width: 120px;
+	height: 150px;
+}
+
+
+/*lv的代码*/
+.message-lv{
+	text-align: center;
+}
+.agr-boy-lv{
+	
+	margin-top: 20px;
+	text-align: center;
+	color: #686868;
+	font-size: 13px;	
+	margin-bottom: 14px;
+}
+.agr-boy-lv p select {
+	 color: #686868;
+	 width: 90px;
+	 height: 28px;
+	 margin-bottom: 14px;
+	 border-radius: 3px;
+}
+.agr-boy-lv img{
+	width: 130px;
+	
+}
+
+.agr-infor-lv{
+	width: 210px;
+	margin: 0 auto;
+	text-align: left;
+	color: #76848f;
+}
+.agr-infor-lv table select{
+	color: #686868;
+	border-radius: 3px;
+	width: 150px;
+	height: 22px;
+	border: 1px solid #c8c8c8;
+	padding-left: 3px;
+	margin-left: -5px;
+}
+.agr-infor-lv table tr td input{
+	border-radius: 3px;
+	width: 145px;
+	height: 20px;
+	padding-left: 3px;
+	border: 1px solid #c8c8c8;
+    margin-left: -5px;
+}
+.agr-infor-lv table tr{
+	/*padding-bottom: 9px;*/
+	height: 32px;
+}
+
+.rt-lv{
+	width: 150px;
+	
+}

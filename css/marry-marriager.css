@@ -1,0 +1,81 @@
+/* CSS Document */
+
+.body{
+	width:100%;
+	background:#ffffff;
+}
+
+.appointment{
+	width:100%;
+	background:#f7f7f7;
+}
+
+.appointment-f12{
+	width:90%;
+	font-size:12px;
+	color:#999999;
+	margin:10px 10px 100px 10px;
+	padding-top:10px;
+	padding-left:10px;
+	padding-bottom:10px;
+}
+
+.appointment-f14{
+	font-size:14px;
+	padding-bottom:5px;
+	color:#999999;
+	padding-top:15px;
+}
+
+.appointment-f28{
+	font-size:28px;
+	color:#0083fd;
+}
+
+.appointment-f10{
+	font-size:8px;
+	color:#666666;
+	line-height:20px;
+}
+
+.appointmentnumber{
+	width:90%;
+	height:76px;
+	background:#f9d3ae;
+	border-radius:5px;
+	display:block;
+	margin:0 auto;
+	text-align:center;
+	margin-top:-95px;
+}
+
+.appointmentnumber-content{
+	color:#666666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding-left:15px;
+	padding-top:15px;
+	padding-bottom:15px;
+	line-height:20px;
+	border-bottom:1px #999999 solid;
+}
+
+.tips{
+	padding-left:15px;
+	padding-top:15px;
+	padding-bottom:15px;
+	line-height:20px;
+}
+
+.return-botton{
+	width:90%;
+	height:31px;
+	background:#f0953c;
+	border-radius:5px;
+	display:block;
+	position:inherit;
+	margin-top:20px;
+	margin-left:15px;
+	margin:0 auto;
+	text-align:center;
+}

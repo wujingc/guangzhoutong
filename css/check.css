@@ -1,0 +1,155 @@
+.bd{
+	background-color: rgb(237,237,237);
+	width: 100%;
+	color: rgb(96,96,96);
+	padding-top: 44px;
+}
+
+/*头部开始*/
+.arrow,.return{
+	
+	display: inline;
+	 position: relative;
+   left:2px;
+   top: 15px;
+}
+.head{
+	position: fixed;
+	left: 0;
+	top: 0;
+	text-align: center;
+	font-size: 14px;
+}
+.one{
+	 position: relative;
+   left: -22px;
+   top: 15px;
+}
+
+/*头部结束*/
+
+.wrap{
+	margin: 15px;
+	
+}
+input{
+	color: rgb(96,96,96);
+}
+.formd select {
+	width: 45%;
+	height: 25px;
+	text-align: center;
+   color: rgb(96,96,96);
+}
+.number{
+	margin: 10px 0 30px 0 ;
+	border-radius: 5px;
+	padding-top: 10px;
+	width: 100%;
+	text-align: center;
+	border: 1px solid rgb(240,149,40);
+	background-color: white;
+	
+}
+.man,.woman{
+	
+	margin-bottom: 10px;
+
+}
+.number input{
+	height: 23px;
+	/*margin-left: -8px;*/
+	padding: 1px auto 1px 5px;
+	padding-left: 6px;
+	width: 55%;
+	border: 1px solid #c8c8c8;
+	border-radius: 3px;
+	background-color: #f1f1f1;
+
+}
+.number .numinput{
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 12px;
+    width: 75%;
+    text-align: center;
+
+}
+.numspan{
+	font-size: 14px;
+
+}
+.star{
+	color: rgb(241,112,133);
+	font-size: 15px;
+	position: relative;
+	left: 0;
+	top: 4px;
+
+}
+.formd p{
+	text-align: center;
+	margin-bottom: 5px;
+	color: rgb(241,112,133);
+	font-size: 12px;
+}
+.confirm{
+	border-radius: 5px;
+	background-color: rgb(240,149,40);
+	color: white;
+	font-size: 18px;
+	line-height: 35px;
+	height: 35px;
+	text-align: center;
+	width: 100%;
+}
+/*底部表单*/
+.formt{
+	padding-top: 13px;
+	background-color: rgb(249,211,174);
+	margin-top: 40px;
+	border-radius: 5px;
+	text-align: center;
+}
+.tablelf{
+	
+}
+.formt input{
+	height: 23px;
+    margin-bottom: 10px;
+	padding: 1px auto 1px 5px;
+	padding-left: 6px;
+	width: 62%;
+	margin-left: -5px;
+	border: 1px solid #c8c8c8;
+	border-radius: 3px;
+	background-color: #f1f1f1;
+
+}
+.formt input:last-child{
+   margin-bottom: 35px;
+}
+.detail,.cancel{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+	line-height: 30px;
+	color: white;
+	font-size: 14px;
+	display: inline-block;
+
+}
+.detail{
+	background-color: rgb(240,149,40);
+	margin-right: 20px;
+}
+.cancel{
+	background-color: rgb(179,179,179);
+}
+.bottom{
+  width: 100%;
+  height: 100px;
+}

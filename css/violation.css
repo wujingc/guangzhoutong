@@ -1,0 +1,124 @@
+
+.bott{
+	background-color: #80be1f;
+	width: 95%;
+	height: 31px;
+	/*padding-top: 15px;*/
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	margin: 0 auto;
+	line-height: 31px;
+}
+.Tsele{
+	padding-top: 58px;
+	padding-left: 2.5%;
+}
+.Tsele p span{
+	font-size: 13px;
+	color: red;
+	line-height: 35px;
+}
+/*.col{
+	width: red;
+	padding-top: 50px;
+}*/
+
+table{
+	width: 95%;
+	margin: 17px auto;
+	margin-top: 3px;
+}
+table tr{
+/*table-layout:fixed;*/
+}
+table tr td input{
+	width: 100%;
+	height: 22px;
+	/*color:#c0c3c8;*/
+	border-radius: 2px;
+	border:none;
+	border:1px solid #c0c3c8;
+	display: inline-block;
+	text-indent: 5px;
+}
+table tr td span{
+	display: inline-block;
+}
+/*table tr td input:focus{
+	color: #666666;
+}*/
+
+table tr td{
+	height: 30px;
+}
+table tr td select{
+	border:1px solid #c0c3c8;
+	height: 22px;
+	border-radius: 2px;
+	/*background: url(../images/p1.png);*/
+}
+.Tsele select{
+	border:1px solid #c0c3c8;
+	height: 22px;
+	border-radius: 2px;
+}
+
+/*查询记录*/
+.record{
+	width: 95%;
+	margin:0 auto;
+	padding-top: 31px;
+}
+.record p{
+	padding: 10px 0px 10px 0px;
+}
+.record-con{
+	border-radius: 15px;
+	height: 28px;
+	background-color: #498edc;
+	color: white;
+	padding: 7px 14px 7px 14px;
+    box-shadow: 0px 1px 3px black; /*box  x阴影  y阴影  10羽化  阴影颜色  */
+	margin: 0px 3px 0px 3px;
+	line-height: 40px;
+}
+/*规则*/
+.but{
+	/*width: 95%;*/
+	line-height: 22px;
+	/*margin: 0 auto;*/
+	padding: 40px 10px 40px 30px;
+}
+ul li {
+	list-style-type:decimal;
+}
+ul p{
+	margin-left: -20px;
+}
+/*左右刷新*/
+.zyclick{
+	width: 100%;
+	height: 45px;
+	background-color: #fff;
+	border-top: 1px solid #d2d2d2;
+	position: fixed;
+	bottom: 0px;
+	font-size: 45px;
+}
+.zyclick .clickl img{
+	margin-left: 35px;
+	width: 13px;
+	height: 35px;
+}
+.zyclick .clickr img{
+	margin-left: 30px;
+	width: 13px;
+	height: 35px;
+}
+.zyclick .clickq{
+	width: 25px;
+	height: 25px;
+	margin-right: 25px;
+	margin-top: 10px;
+}

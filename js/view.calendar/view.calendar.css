@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+.calendar{
+	width:100%;
+}
+.about-table td{
+	font-size:14px;
+	color:#a5a5a5;
+	position:relative;
+}
+.about-table td.nextDay,.about-table td.today{
+	color:#fff;
+}
+.about-table th{
+	position:relative;
+}
+.about-table th,.about-table td{
+	vertical-align:middle;
+	text-align:center;
+}
+.about-table-bth th{
+	height:43px;
+}
+.about-table-sth th{
+	color:#6a7883;
+	width:14%;
+	height:40px;
+	background-color:#f2f2f2;
+	color:#5e5e5e;
+}
+.calendar-btn{
+	width:50px;
+	height:100%;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.calendar-btn-prev{
+	display:none;
+	background-image:url(../../../images/v1/calendar-prev.jpg);
+}
+.calendar-btn-next{
+	background-image:url(../../../images/v1/calendar-next.jpg);
+}
+.calendar-select{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	line-height:43px;
+	text-align:center;
+	z-index:-1;
+	color:#4c4c4c;
+	font-size:18px;
+}
+.calendar-select input{
+	border:none;
+	width:78px;
+	margin-top:5px;
+}
+
+.calendar-select span{
+	cursor:pointer;
+}
+.calendar-day{
+	position:relative;
+	width:100%;
+	height:56px;
+	overflow:hidden;
+}
+.calendar-day span{
+	display:block;
+	line-height:1em;
+}
+.about-table td.nocurrent{
+	color:#a5a5a5;
+	background-color:#f2f2f2;
+}
+.calendar-day-count{
+	font-size:14px;
+	color:#bebebe;
+}
+.calendar-day-icon{
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:16px;
+	height:16px;
+}
+
+
+/*圆圈*/
+.circleWrap{
+	display:none;
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	padding:5px;
+	z-index:-1;
+}
+.calendar-circle{
+	width:100%;
+	height:100%;
+	border-radius:50%;
+	background-color:#a8d837;
+}
+.today .circleWrap,.nextDay .circleWrap{
+	display:block;
+}
+.actived .calendar-circle{
+	background-color:#f08300;
+}
+.about-table td.filled,.about-table td.less{
+	font-size:10px;
+	line-height:1em;
+}
+.about-table td.filled,.about-table td.less{
+	color:#a5a5a5;
+}
+.filled .calendar-circle{
+	background-color:#e3e1e2;
+}
+.less .calendar-circle{
+	background-color:#ffe467;
+}

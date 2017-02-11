@@ -1,0 +1,151 @@
+/*登录*/
+.login{
+	height:100px;
+	background-color:#f2f2f2;
+	border-bottom:1px solid #cccccc;
+	min-width: 320px;
+	margin-top: 44px;
+}
+.login-head{
+
+}
+.login-head img{
+	width:68px;
+	height:68px;
+	vertical-align: middle; 
+	padding: 18px;
+	float: left;
+}
+.line{
+
+	width: 180px;
+	height: 40px;
+	border-left: 2px solid #66b0ff;
+	margin: 34px 0px 22px 10px;
+	/*margin-left: 100px;*/
+}	
+.line p{
+	padding:0px 0px 6px 10px; 
+}
+.content{
+	border: 1px solid #aaaaaa;
+	border-radius: 5px;
+	width: 95%;
+	margin:0 auto;
+	background-color: #fff;
+}
+.content>ul>li:not(:last-child) {
+ 	border-bottom: 1px solid #aaaaaa;
+}
+.content>ul>li{
+	height: 43px;
+}
+.content>ul>li>a{
+	color: #666666;
+	height: 100%;
+	line-height: 43px;
+	padding-left: 40px;
+	/*margin: 10px 0px 13px 45px;*/
+	/*margin: 13px 0px 11px 45px;*/
+	/*height: 43px;*/
+}
+.content .content-r{
+	float: right;
+	margin-right: 10px;
+	height: 43px;
+}
+.content .content-r img{
+	height: 19px;
+	padding-top:12px;
+}
+.person-bott{
+	background-color: #f53d3d;
+	width: 95%;
+	height: 31px;
+	padding-top: 15px;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+.content .con-bg01{
+	background-image: url(../images/p1.png);
+	background-size: 27px 25px;
+	background-repeat: no-repeat;
+	background-position:7px 8px
+
+}
+.content .con-bg02{
+	background-image: url(../images/p2.png);
+	background-size: 27px 25px;
+	background-repeat: no-repeat;
+	background-position:7px 8px;
+}
+.content .con-bg03{
+	background-image: url(../images/p3.png);
+	background-size: 27px 25px;
+	background-repeat: no-repeat;
+	background-position:7px 8px;
+}
+.content .con-bg04{
+	background-image: url(../images/p4.png);
+	background-size: 27px 25px;
+	background-repeat: no-repeat;
+	background-position:7px 8px;
+}
+.content .con-bg05{
+	background-image: url(../images/p5.png);
+	background-size: 27px 25px;
+	background-repeat: no-repeat;
+	background-position:7px 8px;
+}
+.content .con-bg06{
+	background-image: url(../images/p6.png);
+	background-size: 27px 25px;
+	background-repeat: no-repeat;
+	background-position:7px 8px;
+}
+.content .con-bg07{
+	background-image: url(../images/p7.png);
+	background-size: 27px 25px;
+	background-repeat: no-repeat;
+	background-position:7px 8px;
+}
+.content .con-bg08{
+	background-image: url(../images/p8.png);
+	background-size: 27px 25px;
+	background-repeat: no-repeat;
+	background-position:7px 8px;
+}
+.content .con-bg09{
+	background-image: url(../images/p9.png);
+	background-size: 27px 25px;
+	background-repeat: no-repeat;
+	background-position:7px 8px;
+}
+/*左右刷新*/
+.zyclick{
+	width: 100%;
+	height: 45px;
+	background-color: #fff;
+	border-top: 1px solid #d2d2d2;
+	position: fixed;
+	bottom: 0px;
+	font-size: 45px;
+}
+.zyclick .clickl img{
+	margin-left: 35px;
+	width: 13px;
+	height: 30px;
+}
+.zyclick .clickr img{
+	margin-left: 30px;
+	width: 13px;
+	height: 30px;
+}
+.zyclick .clickq{
+	width: 25px;
+	height: 25px;
+	margin-right: 25px;
+	margin-top: 10px;
+}

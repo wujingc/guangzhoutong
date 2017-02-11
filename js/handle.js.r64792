@@ -1,0 +1,46 @@
+window.onload=function(){
+  wid();
+  bind();
+}
+
+var wid=function(){
+
+	var $one=$(".mid").find("span");    
+	    for (var i = 0; i < $one.length; i++) {
+	    var a=parseInt($one.eq(i).css("width"));
+		
+        a=a+"px";
+
+        $(".mid").eq(i).css("width",a);
+	       }; 
+
+	var b=$(".tab").css("height");     
+        $(".sub").css("height",b);
+
+    var c=$("body").css("height");     
+        $(".hid").css("height",c);
+       
+    var d=window.screen.height;
+    
+    	d=d-152+"px";
+     $(".bigbot").css("top",d);
+
+     
+   
+        
+
+
+
+}
+
+var bind=function(){
+ $(".deal").click(function(){
+    $(".hid").css("display","block");
+     $(".entry").css("display","block");
+  });
+
+ $(".mit").click(function(){
+    $(".hid").css("display","none");
+     $(".entry").css("display","none");
+  });
+}

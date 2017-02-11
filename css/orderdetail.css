@@ -1,0 +1,144 @@
+/*头部开始*/
+.arrow,.return{
+  
+  display: inline;
+   position: relative;
+   left:2px;
+   top: 15px;
+}
+.head{
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  font-size: 14px;
+}
+.one{
+   position: relative;
+   left: -22px;
+   top: 15px;
+}
+
+/*头部结束*/
+.bd{
+  padding-top: 44px;
+}
+.top{
+	background-color: rgb(237,237,237);
+	width: 100%;
+    clear: both;
+    font-size: 14px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(195,195,195);
+   
+}
+.top-ul{
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+    text-align: center;
+    color: rgb(84,84,84);
+}
+.top li{
+   
+   color: rgb(120,132,145);
+   
+   clear: both;
+   margin-left: 15px;
+   overflow: hidden;
+   font-size: 13px;
+  
+   
+}
+.top li p{
+   float: left;
+   display: inline;
+    line-height: 1.8;
+   
+
+}
+.top-rt{
+     width: 70%;
+}
+.top span{
+	margin-right: 15px;
+	 color: rgb(84,84,84);
+}
+
+
+/*message begin*/
+.message{
+   margin: 0 13px;
+}
+.messagep{
+	height: 35px;
+	line-height: 35px;
+  color: rgb(117,117,117);
+  font-size: 13px;
+}
+
+.detail{
+	clear: both;
+	border: 2px solid rgb(249,211,174);
+	clear: both;
+	overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.detail div{
+	float: left;
+	display: inline;
+
+}
+.detail-img{
+	
+	margin: 10px 10px auto 15px;
+}
+.detail img{
+	width: 40px;
+}
+
+.detail-rt{
+	width: 70%;
+	font-size: 13px;
+ margin-top: 5px;
+	
+}
+.detail-rt li{
+   width: 100%;
+   color: rgb(120,132,145);
+   clear: both;
+   margin-left: 15px;
+   overflow: hidden;
+}
+.detail-rt li p{
+   float: left;
+   display: inline;
+    line-height: 1.8;
+}
+.rt{
+     width: 60%;
+}
+
+.detail-rt span{
+	
+	 color: rgb(84,84,84);
+}
+.tip{
+  color: rgb(241,112,133);
+  font-size: 12px;
+}
+.bottom{
+  width: 100%;
+  height: 100px;
+}
+
+/*orderdetail css*/
+.rtd{
+  width: 70%;
+}
+.detail .detail-rtd{
+  
+  width: 90%;
+
+}

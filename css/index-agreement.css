@@ -1,0 +1,53 @@
+.pri img{
+	width: 120px;
+	height: 150px;
+	display:table-cell;
+	margin: 75px auto 30px;
+}
+.kuan a{
+	width: 94%;
+	height: 31px;
+	background-color: #f0953c;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	/*vertical-align: hidden;*/
+	/*vertical-align:middle;*/
+	border-radius: 5px;
+	margin-bottom: 15px;
+	line-height:31px;
+	font-size: 14px;
+	display: block;
+}
+.agr-bot{
+	border-top: 1px solid #b0b0b0;
+	width: 100%;
+	/*height: 100%;*/
+	/*height: 170px;*/
+	background-color: #f7f7f7;
+	text-align: center;
+	padding-top: 15px;
+	color: #9e9e9e;
+}
+.agr-bot p{
+	padding-bottom: 10px;
+}
+.agr-bot input{
+	vertical-align: middle;
+}
+.agr-bot a{
+	display: inline-block;
+	color: #1c9ae4;
+}
+/*协议*/
+.agr-text{
+	padding-top: 60px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #777f81;
+
+}
+.agr-text p{
+	padding-bottom: 10px;
+	line-height: 20px;
+}
